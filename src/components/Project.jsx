@@ -1,6 +1,6 @@
-import pic from '../assets/Disney-clone.jpg'
+import pic from '../assets/huupe.webp'
 import shoe from '../assets/nike-shoe.png'
-import organic from '../assets/organic.jpg'
+import DMS from '../assets/DMS.jpg'
 import AiChatBot from '../assets/AirAi.jpg'
 import GameTesting from '../assets/GameTesting.jpg'
 
@@ -9,7 +9,7 @@ const projects=[
     {
         id:1,
         name:"Huupe Mini",
-        Technology:"Huupe Mini is a smart basketball hoop designed to enhance the basketball training experience.",
+        Technology:"Huupe Mini is a smart basketball hoop designed to enhance the basketball training experience.Conducted comprehensive multiplayer testing to ensure stability and performance during online gameplay.",
         image:pic,
         github:"https://github.com/AbuzarAli1122/Disney-Clone.git"
     },
@@ -17,7 +17,7 @@ const projects=[
         id:2,
         name:"Project Management System (DMS) ",
         Technology:"1. Conducted functional and UI testing for the Project Management System, identifying and documenting bugs",
-        image:organic,
+        image:DMS,
         github:"https://github.com/AbuzarAli1122/EcommerceSneakers.git"
     },
 

@@ -1,4 +1,4 @@
-import { FaFacebook, FaLinkedin } from 'react-icons/fa'
+import {  FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
   return (
@@ -26,9 +26,7 @@ function Footer() {
                 &copy; { new Date().getFullYear() } Hammad: All rights reserved.
             </p>
             <div className='flex space-x-4 my-4 md:my-0'>
-                <a href="https://www.facebook.com/abuzar.ali.35513800" className='text-gray-400 hover:text-white'>
-                    <FaFacebook/>
-                </a>
+               
                 <a href="http://linkedin.com/in/muhammad-hammad-262310276" className='text-gray-400 hover:text-white'>
                     <FaLinkedin/>
                 </a>
