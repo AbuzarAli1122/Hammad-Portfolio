@@ -1,4 +1,4 @@
-import Image from '../assets/abuzar.png'
+import Image from '../assets/hammadimg.jpg'
 function About() {
   return (
     <div className='bg-black text-white py-20 ' id='about'>
@@ -9,14 +9,13 @@ function About() {
            
             <div className='flex-1'>
             <p className='text-lg mb-8'>
-                I am a Passionate Developer With a Focus on Building 
-                Modern and Responsive Web Application. With a Strong Foundation 
-                in Both Frontend and Backend Technologies, I strive to Create 
-                Seamless and Efficient User Experiences. 
+                Detail-oriented and quality-focused QA Engineer with a Bachelor degree in Computer Science and practical experience
+                in manual, API, and mobile/web application testing. Skilled in test case creation, bug reporting, and collaboration with
+                development teams. Familiar with automation tools like Cypress and agile development workflows.
             </p>
             <div className='space-y-4'>
              <div className='flex items-center'>
-                <label htmlFor="htmlandcss" className='w-2/12'>Html & Css</label>
+                <label htmlFor="htmlandcss" className='w-2/12'>Manual Testing</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
                     transform transition-transform duration-300 hover:scale-110 w-11/12'>
@@ -25,16 +24,16 @@ function About() {
                 </div>
              </div>
              <div className='flex items-center'>
-                <label htmlFor="htmlandcss" className='w-2/12'>JS</label>
+                <label htmlFor="htmlandcss" className='w-2/12'>Api Testing</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
-                    transform transition-transform duration-300 hover:scale-110 w-11/12'>
+                    transform transition-transform duration-300 hover:scale-110 w-10/12'>
 
                     </div>
                 </div>
              </div>
              <div className='flex items-center'>
-                <label htmlFor="htmlandcss" className='w-2/12'>React Js</label>
+                <label htmlFor="htmlandcss" className='w-2/12'>Automation Using Cypress</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
                     transform transition-transform duration-300 hover:scale-110 w-10/12'>
@@ -44,10 +43,10 @@ function About() {
              </div>
 
              <div className='flex items-center'>
-                <label htmlFor="htmlandcss" className='w-2/12'>Node Js</label>
+                <label htmlFor="htmlandcss" className='w-2/12'>Web/Mob/Games Application</label>
                 <div className='grow bg-gray-800 rounded-full h-2.5'>
                     <div className='bg-gradient-to-r from-green-500 to-blue-400 h-2.5 rounded-full
-                    transform transition-transform duration-300 hover:scale-110 w-9/12'>
+                    transform transition-transform duration-300 hover:scale-110 w-11/12'>
 
                     </div>
                 </div>
@@ -57,13 +56,13 @@ function About() {
            <div className="mt-12 flex flex-col sm:flex-row justify-between text-center space-y-6 sm:space-y-0 sm:space-x-4">
               <div className="flex-1">
                 <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  Internship
+                  Full Time Employee
                 </h3>
-                <p className="text-sm sm:text-base">From Connect Solution</p>
+                <p className="text-sm sm:text-base">From Mindravel InterActive </p>
               </div>
               <div className="flex-1">
                 <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-                  3+
+                  15+
                 </h3>
                 <p className="text-sm sm:text-base">Projects Completed</p>
               </div>
@@ -71,7 +70,7 @@ function About() {
                 <h3 className="text-xl sm:text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
                   Happy to Learn More
                 </h3>
-                <p className="text-sm sm:text-base">In the Field of Web</p>
+                <p className="text-sm sm:text-base">In the Field of QA</p>
               </div>
             </div>
             </div>

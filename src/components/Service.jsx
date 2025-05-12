@@ -1,41 +1,42 @@
-import React from 'react'
+
 
 const services=[
     
     {
         id: 1,
-        title:"Javascript",
-        description:"Having a good Knowledge of Java For complex project"
+        title:"Manual Testing",
+        description:"I specialize in manual testing to ensure application functionality, usability, and reliability. My focus is on finding critical bugs and ensuring smooth user interactions."
     },
     {
         id: 2,
-        title:"Web Design",
-        description:"Creating visually appealing and User-Friendly Web Designs"
+        title:"Api Testing",
+        description:"Proficient in testing RESTful APIs, I validate response accuracy, performance, and security using tools like Postman to guarantee seamless backend communication."
     },
     {
         id: 3,
-        title:"Frontend Development",
-        description:"Building responsive and interactive user interfaces"
+        title:"Automation Using Cypress",
+        description:"I use Cypress to create efficient end-to-end automated test cases, reducing regression time and improving overall test coverage."
     },
     {
         id: 4,
-        title:"Backend Development",
-        description:"Developing robust server-side logic and database"
+        title:"Web Application",
+        description:"I have tested a wide range of applications including web, mobile, games, and desktop platforms, ensuring a consistent and bug-free user experience across all devices."
     },
     {
         id: 5,
-        title:"Full Stack Development",
-        description:"Combing both frontend and backend development skill"
+        title:"Mobile Application",
+        description:"I have tested a wide range of applications including web, mobile, games, and desktop platforms, ensuring a consistent and bug-free user experience across all devices."
     },
     {
         id: 6,
-        title:"Python",
-        description:"Also have a Knowledge of Python"
+        title:"Games/Desktop Application",
+        description:"I have tested a wide range of applications including web, mobile, games, and desktop platforms, ensuring a consistent and bug-free user experience across all devices."
     },
     
 ]
 function Service() {
   return (
+    <>
     <div className='bg-black text-white py-20 ' id='service'>
       <div className='container mx-auto px-8 md:px-16 lg:px-24'>
          <h2 className=' text-4xl font-bold text-center mb-12'>Services</h2>
@@ -57,6 +58,7 @@ function Service() {
          </div>
     </div>
     </div>
+    </>
   )
 }
 

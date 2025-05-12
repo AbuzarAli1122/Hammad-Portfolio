@@ -10,7 +10,7 @@ function Navbar() {
     <>
       <nav className='bg-black text-white px-8 md:px-16'>
         <div className='container py-4 flex justify-between items-center'>
-          <div className='text-2xl font-bold   '>Muhammad Abuzar Ali</div>
+          <div className='text-2xl font-bold   '>Muhammad Hammad Amjad</div>
 
           {/* Desktop Nav Links */}
           <div className='hidden md:flex space-x-6'>

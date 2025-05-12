@@ -11,20 +11,20 @@ function Contact() {
             <div className='flex-1'>
            <h3 className='text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r
            from-green-400 to-blue-500 mb-4'>Lets Talk</h3>
-           <p>I am open to discussing web development projects or partnership <br/>opportunities.</p>
+           <p>I am open to discussing QA Testing or partnership <br/>opportunities.</p>
            <div className='mb-4 mt-8'>
             <FaEnvelope className='inline-block text-green-400 mr-2'></FaEnvelope>
             <a href="mailto:abuzar03034698819@gmail.com" className='hover:underline'>
-            abuzar03034698819@gmail.com
+            hammad2002a@gmail.com
             </a>
            </div>
            <div className='mb-4 '>
             <FaPhone className='inline-block text-green-400 mr-2'></FaPhone>
-            <span>0312437579</span>
+            <span>03234723079</span>
            </div>
            <div className='mb-4 '>
             <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
-            <span>L-31 Wahdat Colony,Lahore,Punjab</span>
+            <span>Walton, Lahore</span>
            </div>
             </div>
            
